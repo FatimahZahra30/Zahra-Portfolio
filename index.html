@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#070611" />
+    <meta name="description" content="Fatimah Zahra is a computer science student building thoughtful web, mobile and machine learning experiences." />
+    <meta property="og:title" content="Fatimah Zahra — Developer & Designer" />
+    <meta property="og:description" content="A selection of software, web, mobile and machine learning work by Fatimah Zahra." />
+    <title>Fatimah Zahra — Developer & Designer</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="dark.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Fatimah Zahra, back to top">
+        <span class="brand-mark" aria-hidden="true">&lt;FZ/&gt;</span>
+        <span class="brand-name">Fatimah Zahra</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span>
+      </button>
+      <nav id="site-nav" aria-label="Primary navigation">
+        <a href="#top">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Projects</a>
+        <a href="#experience">Experience</a>
+        <a class="nav-cta" href="mailto:fatimah30zahra@gmail.com">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Hello, I’m</p>
+          <h1 id="hero-title"><span>Fatimah</span> <em>Zahra</em></h1>
+          <p class="hero-role">Developer <span>•</span> Designer <span>•</span> Computer Science Student</p>
+          <p class="hero-intro">I build practical web, mobile and machine-learning products—from clinical tools to playful interactive experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">View my work</a>
+            <a class="button button-quiet" href="assets/fatimah-zahra-resume.pdf" download>Download CV</a>
+          </div>
+        </div>
+
+        <div class="hero-visual hero-tech-visual reveal" aria-label="Languages and frameworks Fatimah works with">
+          <span class="tech-ring ring-one" aria-hidden="true"></span>
+          <span class="tech-ring ring-two" aria-hidden="true"></span>
+          <span class="tech-grid" aria-hidden="true"></span>
+          <div class="hero-tech-card hero-python"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" /></div>
+          <div class="hero-tech-card hero-react"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React Native" /></div>
+          <div class="hero-tech-card hero-vue"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" alt="Vue.js" /></div>
+          <div class="hero-tech-card hero-node"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" /></div>
+          <div class="hero-tech-card hero-pytorch"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch" /></div>
+          <div class="hero-tech-card hero-js"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" /></div>
+          <div class="hero-tech-card hero-ts"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" /></div>
+          <div class="hero-tech-card hero-flask"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" alt="Flask" /></div>
+          <div class="hero-tech-core" aria-hidden="true">&lt;/&gt;</div>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work" aria-labelledby="work-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-number">01 / Selected work</p>
+            <h2 id="work-title">Built by learning,<br />testing & iterating.</h2>
+          </div>
+          <p>From clinical decision support to playful browser games, these projects show how I approach different problems with the same thoughtful curiosity.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured reveal" data-project="anaesthesia">
+            <button class="project-open" type="button" aria-label="View Anaesthesia Medical Toolkit details">
+              <div class="project-media phone-media">
+                <img src="assets/anaesthesia-toolkit.jpg" alt="Anaesthesia Toolkit mobile application home screen" />
+              </div>
+              <div class="project-info">
+                <div class="project-meta"><span>Mobile application</span><span>2026</span></div>
+                <h3>Anaesthesia Medical Toolkit</h3>
+                <p>Clinical references, dosage calculators and decision support designed for fast-paced healthcare environments.</p>
+                <ul class="tags" aria-label="Technologies"><li>React Native</li><li>Expo</li><li>TypeScript</li></ul>
+                <span class="text-link">View case study <span aria-hidden="true">↗</span></span>
+              </div>
+            </button>
+          </article>
+
+          <article class="project-card reveal" data-project="edvera">
+            <button class="project-open" type="button" aria-label="View Edvera details">
+              <div class="project-media"><img src="assets/edvera.png" alt="Edvera learning management system lessons dashboard" /></div>
+              <div class="project-info">
+                <div class="project-meta"><span>Full-stack LMS</span><span>2025</span></div>
+                <h3>Edvera</h3>
+                <p>A role-aware learning platform with dynamic lessons, enrolment and progress tracking.</p>
+                <ul class="tags" aria-label="Technologies"><li>Vue.js</li><li>Node.js</li><li>MongoDB</li></ul>
+                <span class="text-link">View case study <span aria-hidden="true">↗</span></span>
+              </div>
+            </button>
+          </article>
+
+          <article class="project-card reveal" data-project="flappy">
+            <button class="project-open" type="button" aria-label="View Flappy Birb details">
+              <div class="project-media"><img src="assets/flappy-birb.png" alt="Flappy Birb browser game with score panel" /></div>
+              <div class="project-info">
+                <div class="project-meta"><span>Browser game</span><span>2025</span></div>
+                <h3>Flappy Birb</h3>
+                <p>A reactive browser game with observable-driven state, ghost replays and evolving visual rewards.</p>
+                <ul class="tags" aria-label="Technologies"><li>TypeScript</li><li>RxJS</li><li>FRP</li></ul>
+                <span class="text-link">View case study <span aria-hidden="true">↗</span></span>
+              </div>
+            </button>
+          </article>
+
+          <article class="project-card project-wide reveal" data-project="garbage">
+            <button class="project-open" type="button" aria-label="View Garbage Inc details">
+              <div class="project-media terminal-media"><img src="assets/garbage-inc.png" alt="Garbage Inc terminal survival game interface" /></div>
+              <div class="project-info">
+                <div class="project-meta"><span>Multiplayer game</span><span>2025</span></div>
+                <h3>Garbage Inc.</h3>
+                <p>A cooperative terminal survival game with modular enemies, items and environmental hazards.</p>
+                <ul class="tags" aria-label="Technologies"><li>Java</li><li>OOP</li><li>UML</li></ul>
+                <span class="text-link">View case study <span aria-hidden="true">↗</span></span>
+              </div>
+            </button>
+          </article>
+
+          <article class="project-card project-wide reveal" data-project="people">
+            <button class="project-open" type="button" aria-label="View Periodic Table of People details">
+              <div class="project-media dark-media"><img src="assets/periodic-table.png" alt="Three-dimensional periodic table made from profile cards" /></div>
+              <div class="project-info">
+                <div class="project-meta"><span>Interactive visualisation</span><span>Web</span></div>
+                <h3>Periodic Table of People</h3>
+                <p>An expressive 3D directory that lets profile cards shift between table, sphere, helix and grid formations.</p>
+                <ul class="tags" aria-label="Features"><li>3D interaction</li><li>Visual design</li><li>Web</li></ul>
+                <span class="text-link">View case study <span aria-hidden="true">↗</span></span>
+              </div>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="about-lead reveal">
+          <p class="section-number">02 / About</p>
+          <h2 id="about-title">A builder with a designer’s eye and a researcher’s patience.</h2>
+        </div>
+        <div class="about-body reveal">
+          <p class="about-intro">I enjoy working across the stack—from shaping interfaces and APIs to databases and data processing. The best part is learning a new technology, then using it to make something genuinely practical.</p>
+          <div class="skill-columns">
+            <div>
+              <h3>Frameworks</h3>
+              <p>Flask, Vue.js, Node.js, React Native, PyTorch, NumPy, Pandas</p>
+            </div>
+            <div>
+              <h3>Tools</h3>
+              <p>Git, Figma, MongoDB, Oracle, Jupyter, VS Code, IntelliJ</p>
+            </div>
+          </div>
+        </div>
+        <blockquote class="about-note reveal">
+          <span aria-hidden="true">“</span>
+          <p>Build it carefully.<br />Make it useful.<br /><em>Keep learning.</em></p>
+        </blockquote>
+      </section>
+
+      <section class="section experience-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-number">03 / Experience</p>
+            <h2 id="experience-title">Learning in motion.</h2>
+          </div>
+          <p>Research, product development and community work have taught me how to collaborate, communicate and ship.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Nov 2025 — Feb 2026</div>
+            <div><p class="timeline-org">Monash University Malaysia</p><h3>Research Intern · School of IT Research Programme</h3><p>Built and evaluated an end-to-end multimodal emotion recognition pipeline, achieving a 74.07% weighted F1-score with a RoBERTa-BiLSTM hybrid.</p></div>
+            <span class="timeline-index">01</span>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Jul 2025 — Nov 2025</div>
+            <div><p class="timeline-org">Software Engineering Process & Management</p><h3>Frontend Developer & UI/UX Designer</h3><p>Built lesson pages, progress tracking and secure role-based interfaces for a full-stack LMS in a cross-functional Scrum team.</p></div>
+            <span class="timeline-index">02</span>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">May 2025 — Aug 2025</div>
+            <div><p class="timeline-org">MIND ENGINE EXPO 2025</p><h3>Web Developer</h3><p>Created responsive components and improved UI consistency for a large-scale Engineering and IT career fair website.</p></div>
+            <span class="timeline-index">03</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" aria-labelledby="contact-title">
+        <p class="section-number reveal">04 / Contact</p>
+        <div class="contact-inner reveal">
+          <h2 id="contact-title">Have an idea worth building?</h2>
+          <a class="contact-email" href="mailto:fatimah30zahra@gmail.com">fatimah30zahra@gmail.com</a>
+          <div class="contact-links">
+            <a href="https://github.com/FatimahZahra30" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/in/fatimah-zahra-18a0b1344/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a href="assets/fatimah-zahra-resume.pdf" target="_blank">Résumé <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <footer><span>© <span id="year"></span> Fatimah Zahra</span><span>Designed with curiosity in Malaysia</span></footer>
+      </section>
+    </main>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" aria-label="Close project details">×</button>
+      <div class="dialog-media"><img id="dialog-image" src="" alt="" /></div>
+      <div class="dialog-content">
+        <p class="dialog-kicker" id="dialog-kicker"></p>
+        <h2 id="dialog-title"></h2>
+        <p id="dialog-description"></p>
+        <div class="dialog-details" id="dialog-details"></div>
+        <a class="button button-primary" id="dialog-link" href="#" target="_blank" rel="noreferrer">View on GitHub</a>
+      </div>
+    </dialog>
+  </body>
+</html>

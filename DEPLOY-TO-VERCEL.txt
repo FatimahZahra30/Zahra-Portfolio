@@ -1,0 +1,21 @@
+HOW TO PUT THIS PORTFOLIO ON VERCEL
+
+OPTION 1 - GITHUB (RECOMMENDED)
+
+1. Unzip this folder.
+2. Create a new GitHub repository.
+3. Upload all the files from this folder to the repository.
+4. Sign in at vercel.com.
+5. Click "Add New" and then "Project".
+6. Import the GitHub repository you just created.
+7. Set the framework preset to "Other" if Vercel asks.
+8. Leave the build command empty and click "Deploy".
+
+OPTION 2 - VERCEL CLI
+
+1. Unzip this folder.
+2. Open a terminal inside the portfolio folder.
+3. Run: npx vercel --prod
+4. Sign in and accept the suggested settings.
+
+There is no build step. The homepage is index.html.
