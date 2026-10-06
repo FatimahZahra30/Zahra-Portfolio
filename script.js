@@ -42,7 +42,7 @@ const projects = {
     alt: "Three-dimensional periodic table of profile cards",
     description: "A playful visual directory that turns individual profile cards into a collective, explorable 3D composition.",
     details: ["Switches between table, sphere, helix and grid arrangements", "Balances dense profile content with a dramatic spatial view", "Uses motion and layout as part of the navigation experience"],
-    link: ""
+    link: "https://github.com/FatimahZahra30/periodic-table"
   }
 };
 
